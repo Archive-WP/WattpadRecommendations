@@ -6,8 +6,11 @@ readme = "README.md"
 requires-python = ">=3.10.11"
 dependencies = [
     "asyncpg>=0.30.0",
+    "conan>=2.9.3",
     "ipykernel>=6.29.5",
+    "pybind11[global]>=2.13.6",
     "python-dotenv>=1.0.1",
+    "qdrant-client>=1.12.1",
     "rich>=13.9.4",
 ]
 

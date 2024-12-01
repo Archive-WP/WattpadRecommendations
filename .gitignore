@@ -15,3 +15,5 @@ wheels/
 .env
 Starspace
 *.txt
+.vscode
+embeddings
