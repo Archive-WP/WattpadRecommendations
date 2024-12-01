@@ -54,3 +54,15 @@ Each line represents a List on Wattpad, containing space seperated IDs of the st
 12. You need a Redis instance for the next step, please make sure you have one running.
 13. You can now serve the embeddings using the Discord bot! (`python3 main.py`)
 
+## Discord Bot
+The discord bot has a `/recommend` command, you can give it a List URL for it to base recommmendations off of.
+
+By default, these results are cached for 12 hours. If you've added or removed stories from your list, you can trigger a cache break using the `refresh:True` option.
+
+For example, `/recommend list_url:https://www.wattpad.com/featured/551324301 refresh:True`
+
+---
+
+<div align="center">
+    <p>TheOnlyWayUp © 2024</p>
+</div>
