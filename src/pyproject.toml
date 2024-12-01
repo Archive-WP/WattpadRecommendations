@@ -1,0 +1,14 @@
+[project]
+name = "stylography"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.11"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.4",
+]
+
+[tool.ruff.lint]
+ignore = ['E402']
